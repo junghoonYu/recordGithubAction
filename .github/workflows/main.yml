@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       # run 뒤에는 실제 작동하는 코드를 적어야 합니다.
     - name: hello world 출력!!
