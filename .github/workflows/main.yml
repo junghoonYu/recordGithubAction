@@ -6,12 +6,11 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      # run 뒤에는 실제 작동하는 코드를 적어야 합니다.
     - name: hello world 출력!!
       run: echo Hello, world!
     - name: 디렉토리 출력!!
       run: ls -al
-    - name: 디렉토리 생성!!
-      run: mkdir /home/ubuntu/test      
+    - name: 파일생성!!
+      run: date=$(date -d "now" "+%s"); touch /home/ubuntu/${date}      
     - name: 파이썬 버전 출력!!
       run: python -V
