@@ -13,4 +13,4 @@ jobs:
     - name: 파일생성!!
       run: date=$(date -d "now" "+%s"); touch /home/ubuntu/${date}      
     - name: 파이썬 버전 출력!!
-      run: python -V
+      run: python2 -V
