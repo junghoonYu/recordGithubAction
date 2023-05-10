@@ -8,7 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: copy file
-      uses: junghoonYu/copy-file-action@master
+      uses: TESTGithubAction/copy-file-action@master
       with:
         source: "file.txt"
         target: "file.txt"
