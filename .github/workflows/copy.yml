@@ -10,5 +10,5 @@ jobs:
     - name: copy file
       uses: TESTGithubAction/copy-file-action@master
       with:
-        source: "file.txt"
-        target: "file.txt"
+        source: "files/test.txt"
+        target: "test.txt"
