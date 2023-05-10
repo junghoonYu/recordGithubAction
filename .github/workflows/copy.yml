@@ -10,5 +10,5 @@ jobs:
     - name: copy file
       uses: junghoonYu/copy-file-action@master
       with:
-        source: "README.md"
-        target: "README.md"
+        source: "file.txt"
+        target: "file.txt"
